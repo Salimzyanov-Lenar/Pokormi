@@ -38,6 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'main_page.apps.MainPageConfig',
+    'React_app.apps.ReactAppConfig',
 ]
 
 MIDDLEWARE = [

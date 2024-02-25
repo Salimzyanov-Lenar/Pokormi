@@ -1,7 +1,9 @@
-# Pokormi_back
-Main setting of project in "Pokormi"
+# Pokormi
 
-"main_page" is the app of project 
+python manage.py runserver - open server
 
-for run the project clone it and then 
-"python manage.py runserver" in file directory where main.py is
+after on the following path: http://127.0.0.1:8000/react/
+opening 'React_App' app
+
+On the following path: http://127.0.0.1:8000/main_page/
+opening 'main_page' app

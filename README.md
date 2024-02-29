@@ -5,7 +5,7 @@ pip install django <br/>
 pip install djangorestframework <br/>
 pip install django-cors-headers <br/>
 
-React_app - приложение под frontend
+React_app - приложение под frontend <br/>
 везде где в видео используется в названии переменной, папки, директории 
 используется frontend я использовал React_app (просто из-за того что имена приложений разные)
 

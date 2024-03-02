@@ -20,3 +20,4 @@ npm install @material-ui/icons <br/>
 
 python manage.py runserver - запуск локального сервера
 
+api ключ для yandex maps захаркоден 

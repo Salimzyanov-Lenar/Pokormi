@@ -21,6 +21,10 @@ class App extends Component {
           controls: []
         });
 
+        // Добавление метки
+        var placemark = new ymaps.Placemark([55.76, 37.64], {}, {}, {});
+        map.geoObjects.add(placemark);
+
         // Добавляем кнопки для приближения и отдаления
         map.controls.add('zoomControl', {
           size: 'small', // Размер кнопок

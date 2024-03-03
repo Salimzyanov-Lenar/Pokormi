@@ -5,7 +5,7 @@ pip install django <br/>
 pip install djangorestframework <br/>
 pip install django-cors-headers <br/>
 
-main_page - приложение под backend
+main_page - приложение под backend <br/>
 React_app - приложение под frontend
 
 Внутри React_app, команды для реакта: <br/>
@@ -22,4 +22,6 @@ npm install @pbe/react-yandex-maps@1.2.5   -- new<br/>
 
 python manage.py runserver - запуск локального сервера
 
-Для React_app новый адресс  .../Pokormi/
+Для React_app новый адресс  .../Pokormi/ <br/>
+
+api ключ для yandex maps захардкоден 

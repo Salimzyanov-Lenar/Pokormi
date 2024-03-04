@@ -1,13 +1,25 @@
 import React, { Component } from "react";
 import { render } from "react-dom";
 import { YMaps, Map } from 'react-yandex-maps';
+import axios from 'axios';
 
 class App extends Component {
   constructor(props) {
     super(props);
+    this.state = {
+      jsonData: []
+    };
   }
 
   componentDidMount() {
+      axios.get('http://localhost:8000/main_page/')
+      .then(response => {
+        this.setState({ jsonData: response.data });
+      })
+      .catch(error => {
+        console.error('Ошибка при получении данных:', error);
+      });
+
     const script = document.createElement("script");
     script.src = "https://api-maps.yandex.ru/2.1/?apikey=1971215f-d82a-448e-ab23-6e18081c7f64&lang=ru_RU";
     script.async = true;
@@ -16,14 +28,20 @@ class App extends Component {
     script.onload = () => {
       window.ymaps.ready(() => {
         var map = new window.ymaps.Map("map", {
-          center: [53.19581937450313,50.100343928289455], // 53.21137 с.ш. 50.17779 в.д.
-          zoom: 12,
+          center: [53.20810451967212,50.17495320733456],
+          zoom: 10,
           controls: []
         });
 
-        // Добавление метки
-        var placemark = new ymaps.Placemark([53.1958,50.1003], {}, {}, {});
-        map.geoObjects.add(placemark);
+        this.state.jsonData.forEach(item => {
+          var placemark = new ymaps.Placemark([item.longitude, item.width], {}, {
+                           iconLayout: 'default#image', // указываем что хотим свою картинку
+                           iconImageHref: 'https://img.icons8.com/?size=48&id=oEg3GHCXzCHK&format=png', // путь к картинке
+                           iconImageSize: [40, 40], // размер в пикселях
+                           iconImageOffset: [0, 0] // отступ от центра
+                    }, {});
+          map.geoObjects.add(placemark);
+        });
 
         // Добавляем кнопки для приближения и отдаления
         map.controls.add('zoomControl', {

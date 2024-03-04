@@ -17,8 +17,9 @@ npm install @material-ui/core <br/>
 npm install @babel/plugin-proposal-class-properties <br/>
 npm install react-router-dom <br/> 
 npm install @material-ui/icons <br/>
-npm install react-yandex-maps@4.6.0   -- new<br/>
-npm install @pbe/react-yandex-maps@1.2.5   -- new<br/>
+npm install react-yandex-maps@4.6.0  <br/>
+npm install @pbe/react-yandex-maps@1.2.5  <br/>
+npm install axios@1.6.7 -- new<br/>
 
 python manage.py runserver - запуск локального сервера
 

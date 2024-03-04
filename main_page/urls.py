@@ -1,8 +1,7 @@
 from django.urls import path
-from . import views
+from main_page.views import CabinAPIView
 
 urlpatterns = [
-    path('', views.main_page, name='main_page')
+    path('', CabinAPIView.as_view(), name='main_page')
 ]
-
 # http://127.0.0.1:8000/main_page/

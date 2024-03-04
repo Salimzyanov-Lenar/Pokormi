@@ -16,13 +16,13 @@ class App extends Component {
     script.onload = () => {
       window.ymaps.ready(() => {
         var map = new window.ymaps.Map("map", {
-          center: [55.76, 37.64],
-          zoom: 10,
+          center: [53.19581937450313,50.100343928289455], // 53.21137 с.ш. 50.17779 в.д.
+          zoom: 12,
           controls: []
         });
 
         // Добавление метки
-        var placemark = new ymaps.Placemark([55.76, 37.64], {}, {}, {});
+        var placemark = new ymaps.Placemark([53.1958,50.1003], {}, {}, {});
         map.geoObjects.add(placemark);
 
         // Добавляем кнопки для приближения и отдаления

@@ -28,7 +28,7 @@ class App extends Component {
     script.onload = () => {
       window.ymaps.ready(() => {
         var map = new window.ymaps.Map("map", {
-          center: [53.20810451967212,50.17495320733456],
+          center: [53.20,50.174],
           zoom: 10,
           controls: []
         });

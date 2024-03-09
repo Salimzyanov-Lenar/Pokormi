@@ -13,4 +13,4 @@ class Cabin(models.Model):
     status = models.BooleanField(default=False) # False - не работает, True - работает
 
     def __str__(self):
-        return self.cabin_id
+        return self.street_name

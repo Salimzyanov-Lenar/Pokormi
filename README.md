@@ -10,7 +10,7 @@ pip install django djangorestframework django-cors-header
 main_page - приложение под backend <br/>
 React_app - приложение под frontend
 
-Внутри React_app, команды для реакта: <br/>
+Необходимые библиотеки для React <br/>
 npm init -y <br/>
 npm i webpack webpack-cli --save-dev <br/>
 npm i @babel/core babel-loader @babel/preset-env @babel/preset-react --save-dev <br/>

@@ -9,6 +9,7 @@ api ключ для yandex maps захардкоден
 
 
 
+Библиотеки для React <br>
 npm init -y <br/>
 npm i webpack webpack-cli --save-dev <br/>
 npm i @babel/core babel-loader @babel/preset-env @babel/preset-react --save-dev <br/>

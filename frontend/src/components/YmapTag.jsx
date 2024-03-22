@@ -19,20 +19,24 @@ const YmapTag = () => {
     <YMaps>
       <div>
         <Map
-          defaultState={{ center: [53.20, 50.174], zoom: 10 }}
-          style={{ width: '100%', height: '400px' }}
+          defaultState={{
+            center: [53.20, 50.174],
+            zoom: 10,
+            }}
+          style={{ width: '100%', height: '400px', position:'absolute', marginTop:"200px"}}
         >
           {jsonData.map(item => (
             <Placemark
               key={item.id}
               geometry={[item.longitude, item.width]}
+              modules={['geoObject.addon.balloon', 'geoObject.addon.hint']}
               properties={{
                 balloonContent: `
-                  <div class="ballon-div">
+                    <div class="ballon-div">
                     <a href="link for donate:">link</a>
                     <button>Donate for kitty!</button>
-                  </div>
-                `
+                    </div>
+                   `
               }}
               options={{
                 iconLayout: 'default#image',

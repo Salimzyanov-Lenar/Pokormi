@@ -1,22 +1,31 @@
 /* Menu.css */
 .menu {
   position: absolute;
-  top: 15px; /* Располагаем меню сверху */
-  left: 245px; /* Располагаем меню слева */
+  top: 5px;
+  left: 795%;
   display: flex;
   align-items: center;
-  border-radius: 10px;
-  background-color: rgba(240, 240, 240, 0.7); /* Цвет фона меню с прозрачностью */
-  padding: 15px;
-  z-index: 1; /* Помещаем меню поверх фоновой картинки */
+  width: 418px; /* Изменяем ширину меню */
+  height: 33px; /* Изменяем высоту меню */
+  border-radius: 30px; /* Увеличиваем радиус скругления */
+  background-color: #FFFFFF;
+  padding: 5px; /* Уменьшаем внутренний отступ */
+  z-index: 1;
 }
 
-
 .menu-item {
-  margin-right: 10px;
-  padding: 5px 10px;
-  border-radius: 5px;
-  background-color: #ccc; /* Цвет фона кнопок */
+  padding: 10px 23px; /* Уменьшаем внутренний отступ кнопок */
+  border-radius: 15px;
   text-decoration: none;
-  color: #333; /* Цвет текста кнопок */
+  color: #451B00;
+   font-weight: bold;
+  font-size: 14px;
+  font-family: 'Unigeo64 Trial', sans-serif;
+  transition: background-color 0.3s;
+  white-space: nowrap; /* Текст в одну строку */
+}
+
+.menu-item:hover {
+  background-color: #FF9A02; /* Цвет фона при наведении */
+  color: #451B00; /* Изменяем цвет текста при наведении */
 }

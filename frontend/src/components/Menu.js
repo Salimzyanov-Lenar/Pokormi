@@ -5,9 +5,10 @@ import '../menu.css';
 const Menu = () => {
   return (
     <div className="menu">
-      <Link to="/" className="menu-item">Home</Link>
-      <Link to="/about" className="menu-item">About</Link>
-      {/* Добавьте еще две кнопки */}
+      <Link to="/" className="menu-item">Главная</Link>
+      <Link to="/about" className="menu-item">Карта</Link>
+         <Link to="/about" className="menu-item">Кормушки</Link>
+         <Link to="/about" className="menu-item">О проекте</Link>
 
     </div>
   );

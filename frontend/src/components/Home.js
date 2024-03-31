@@ -1,13 +1,15 @@
 import React from 'react';
+import Background from './Background'; // Импортируйте Background
+import Menu from './Menu';
 import YmapTag from './YmapTag.jsx';
 
 const Home = () => {
-    return(
-        <div>
-        <YmapTag/>
-        </div>
-    )
-}
+  return (
+    <>
+      <Background />
+      <YmapTag/>
+    </>
+  );
+};
 
-
-export default Home
+export default Home;

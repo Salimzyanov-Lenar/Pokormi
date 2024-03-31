@@ -1,0 +1,14 @@
+.background {
+  position: relative;
+  margin-top: 20px;
+  background-size: cover;
+}
+
+.background-image {
+  width: 90%;
+  height: 515px;
+  object-fit: cover;
+  border-radius: 30px;
+}
+
+/* и так далее для всех стилей, относящихся к фону */

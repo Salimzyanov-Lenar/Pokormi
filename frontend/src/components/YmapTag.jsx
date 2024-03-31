@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import axios from 'axios';
 import { YMaps, Map, Placemark } from '@pbe/react-yandex-maps';
 
-const YmapTag = () => {
+const YmapTag = ({ mapStyles }) => {
   const [jsonData, setJsonData] = useState([]);
 
   useEffect(() => {
@@ -19,7 +19,7 @@ const YmapTag = () => {
     <YMaps>
       <div>
         <Map
-            style={{ width: '30%', height: '55%', position:'absolute', top:'79%', left:'15%', marginTop:"200px"}}
+            style={ mapStyles }
           defaultState={{
             center: [53.20, 50.174],
             zoom: 10,

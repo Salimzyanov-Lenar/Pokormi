@@ -1,8 +1,11 @@
 import React from 'react';
+import '../about.css';
 
 const About = () => {
     return(
-        <div>About</div>
+    <div className="about">
+        <h1>всем привет я абоут ту дай)</h1>
+    </div>
     )
 }
 

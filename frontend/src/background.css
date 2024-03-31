@@ -1,6 +1,7 @@
 .background {
   position: relative;
   margin-top: 20px;
+  margin-left: 20px;
   background-size: cover;
 }
 
@@ -11,4 +12,23 @@
   border-radius: 30px;
 }
 
+.email-container {
+  position: absolute;
+  top: 8%;
+  right: 22%;
+  transform: translate(50%, -50%);
+  padding: 10px;
+}
+
+.email-text {
+  color: #451B00;
+  font-family: Unigeo64 Trial;
+  font-size: 18px;
+  font-weight: 600;
+  margin: 0;
+  background-color: white;
+  padding: 10px;
+  border-radius: 30px;
+ /* clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 50% 80%, 0% 100%);*/
+}
 /* и так далее для всех стилей, относящихся к фону */

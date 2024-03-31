@@ -1,7 +1,7 @@
 /* Menu.css */
 .menu {
   position: absolute;
-  top: 5px;
+  top: 20px;
   left: 795%;
   display: flex;
   align-items: center;
@@ -29,3 +29,4 @@
   background-color: #FF9A02; /* Цвет фона при наведении */
   color: #451B00; /* Изменяем цвет текста при наведении */
 }
+

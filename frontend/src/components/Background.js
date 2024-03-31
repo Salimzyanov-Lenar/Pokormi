@@ -8,7 +8,7 @@ const Background = () => {
     <div className="background">
       <img src={backgroundImage} alt="Background" className="background-image custom-shape" />
       <div className="email-container">
-        <p className="email-text">pokormiteam@gmail.com</p>
+          <p className="email-text">pokormiteam@gmail.com</p>
       </div>
       <div className="overlay">
         <p className="overlay-text">СМОТРИ</p>

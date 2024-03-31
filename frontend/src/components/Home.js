@@ -3,7 +3,7 @@ import YmapTag from './YmapTag.jsx';
 
 const Home = () => {
     return(
-        <div>Home
+        <div>
         <YmapTag/>
         </div>
     )

@@ -11,51 +11,47 @@
 .logo {
   width: 58px;
   height: auto;
-  position: relative; /* Добавляем позиционирование относительно родительского элемента */
-  left: 655%; /* Подвигаем логотип влево на 20 пикселей */
+  position: relative;
+  left: 500%;
 }
-
 
 .background {
   position: relative;
   margin-top: 20px;
   background-size: cover;
-
 }
 
 .background-image {
-  width: 1076px; /* Изменяем ширину фонового изображения */
-  height: 515px; /* Изменяем высоту фонового изображения */
-
+  width: 70%;
+  height: 515px;
   object-fit: cover;
-  z-index: -1;
   border-radius: 30px;
 }
 
 .email-container {
   position: absolute;
   top: 8%;
-  right: 30%;
+  right: 22%;
   transform: translate(50%, -50%);
   padding: 10px;
 }
 
 .email-text {
   color: #451B00;
+  font-family: Unigeo64 Trial;
   font-size: 18px;
-  font-weight: bold;
+  font-weight: 600;
   margin: 0;
   background-color: white;
   padding: 10px;
-  border-radius: 15px;
+  border-radius: 30px;
  /* clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 50% 80%, 0% 100%);*/
 }
 
 .overlay {
   position: absolute;
-
   top: 44%;
-  left: 68%;
+  left: 75%;
   transform: translate(-50%, -50%);
   text-align: center;
 }
@@ -63,17 +59,17 @@
 .overlay-text {
   color: white;
   font-size: 64px;
-  font-weight: bold;
+  font-weight: 700;
 
 }
 
 .overlay-text2 {
   color: white;
   font-size: 75px;
-  font-weight: bold;
+  font-weight: 700;
   position: absolute;
   top: calc(15%); /* Позиционируем текст "КОРМИ" ровно под "СМОТРИ" */
-  left: 37%;
+  left: 38%;
   transform: translateX(-50%);
   white-space: nowrap;
 
@@ -81,22 +77,62 @@
 
 
 .button {
-  width: 305px;
+  width: 353px;
   background-color: orange;
   color: white;
   padding: 7px 20px;
   border-radius: 20px;
   border: none;
+  font-weight: 700;
   font-size: 20px;
   cursor: pointer;
   margin-top: 10px;
   white-space: nowrap;
-   left: 50%; /* Центрируем кнопку по горизонтали */
-  transform: translateX(-17%); /* Сдвигаем кнопку влево на половину ее ширины */
+  transform: translateX(-10%); /* Сдвигаем кнопку влево на половину ее ширины */
 }
 
 .button:hover {
   background-color: #FF9A02; /* Изменяем цвет кнопки при наведении */
+}
+
+.custom-text {
+  position: absolute;
+  width: 320px;
+  height: 148px;
+  top: 63%;
+  left: 18%;
+  font-family: 'Neutral Face', sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 46.94px;
+  text-align: left;
+  padding: 20px;
+  border-radius: 30px;
+}
+
+.text-line {
+  margin: 0;
+  color: white;
+}
+
+.map-info {
+  position: absolute;
+  width: 345px;
+  height: 79px;
+  top: 100%;
+  left: 15%;
+  font-family: 'Unigeo64 Trial', sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+  text-align: left;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.map-text {
+  margin: 0;
+  color: #451B00;
 }
 
 

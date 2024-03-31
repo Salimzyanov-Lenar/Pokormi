@@ -19,11 +19,12 @@ const YmapTag = () => {
     <YMaps>
       <div>
         <Map
+            style={{ width: '30%', height: '55%', position:'absolute', top:'79%', left:'15%', marginTop:"200px"}}
           defaultState={{
             center: [53.20, 50.174],
             zoom: 10,
             }}
-          style={{ width: '100%', height: '400px', position:'absolute', marginTop:"200px"}}
+
         >
           {jsonData.map(item => (
             <Placemark

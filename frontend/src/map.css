@@ -1,5 +1,25 @@
 .map{
     position: relative;
-    margin-top: 80px;
-    margin-left: 120px;
+    margin-top: 120px;
+    margin-left: 182px;
+
+}
+
+.Ymap{
+}
+
+.InfoCard-Translations {
+  font-family: 'Neutral Face', sans-serif;
+  position: fixed;
+  top: 117px; /* Значение для первой карточки */
+  left: 931px; /* Значение для первой карточки */
+  z-index: 10; /* Убедитесь, что карточка будет поверх других элементов */
+}
+
+.InfoCard-Support {
+  font-family: 'Neutral Face', sans-serif;
+  position: fixed;
+  top: 350px; /* Пример значения, подгоните под вашу макет */
+  left: 931px; /* Пример значения, подгоните под вашу макет */
+  z-index: 10; /* Убедитесь, что карточка будет поверх других элементов */
 }

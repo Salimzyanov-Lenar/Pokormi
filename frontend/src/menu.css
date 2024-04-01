@@ -2,10 +2,10 @@
 .menu {
   position: absolute;
   top: 20px;
-  left: 795%;
+  left: 203px;
   display: flex;
   align-items: center;
-  width: 418px; /* Изменяем ширину меню */
+  width: px; /* Изменяем ширину меню */
   height: 33px; /* Изменяем высоту меню */
   border-radius: 30px; /* Увеличиваем радиус скругления */
   background-color: #FFFFFF;
@@ -30,3 +30,22 @@
   color: #451B00; /* Изменяем цвет текста при наведении */
 }
 
+.email-container {
+  position: absolute;
+  top: 8%;
+  right: 22%;
+  transform: translate(50%, -50%);
+  padding: 10px;
+}
+
+.email-text {
+  color: #451B00;
+  font-family: Unigeo64 Trial;
+  font-size: 18px;
+  font-weight: 600;
+  margin: 0;
+  background-color: white;
+  padding: 10px;
+  border-radius: 30px;
+ /* clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 50% 80%, 0% 100%);*/
+}

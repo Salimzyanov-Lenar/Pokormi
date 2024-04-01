@@ -1,0 +1,37 @@
+.info-card {
+  background-color: #919191;
+  color: white;
+  border-radius: 20px; /* Радиус скругления углов */
+  color: white; /* Цвет текста */
+  position: relative; /* Для позиционирования абсолютных элементов внутри */
+  width: 327px; /* Ширина карточки */
+  height: 226px; /* Высота карточки */
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); /* Тень карточки */
+  transition: background-color 0.6s ease;
+}
+
+.info-header {
+  padding: 10px;
+  margin-left: 15px;
+  font-size: 32px; /* Размер шрифта заголовка */
+  margin-bottom: 8px; /* Отступ после заголовка */
+  /* Добавьте другие стили для заголовка */
+}
+
+.info-subtitle {
+  font-size: 14px; /* Размер шрифта подзаголовка */
+  /* Добавьте другие стили для подзаголовка */
+}
+
+.info-link {
+  position: absolute; /* Абсолютное позиционирование */
+  bottom: 16px; /* Позиция снизу */
+  right: 16px; /* Позиция справа */
+  color: white; /* Цвет ссылки */
+  text-decoration: none; /* Убрать подчёркивание */
+  /* Добавьте другие стили для ссылки */
+}
+
+.info-card:hover {
+  background-color: #ffa500; /* Накладываем полупрозрачный черный цвет */
+}

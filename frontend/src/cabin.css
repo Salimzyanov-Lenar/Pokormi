@@ -1,0 +1,51 @@
+/* Cabin.css */
+.card-container {
+  width: 550px;
+  height: 195px;
+  border-radius: 20px;
+  display: flex;
+  background-color: #FFFFFF; /* Adjust the color to match the image */
+  position: relative; /* This will allow absolute positioning inside */
+  font-family: Arial, sans-serif; /* Adjust as needed */
+}
+
+.card-image-container {
+  width: 195px;
+  height: 195px;
+  background-color: #C4C4C4; /* Adjust the color to match the image */
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* Add a placeholder for an image or background image */
+}
+
+.card-content {
+  padding-left: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card-title {
+  font-size: 24px; /* Adjust as needed */
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.card-address {
+  font-size: 16px; /* Adjust as needed */
+}
+
+.support-button {
+  padding: 10px 20px;
+  background-color: #FF9A02; /* Adjust the color to match the image */
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 16px; /* Adjust as needed */
+  weight: 600;
+  font-weight: bold;
+  text-transform: uppercase;
+  align-self: start;
+}

@@ -1,11 +1,13 @@
 .background {
   position: relative;
   margin-top: 20px;
-  margin-left: 20px;
+  margin-left: 172px;
   background-size: cover;
 }
 
 .background-image {
+  margin-left: auto;
+  margin-right: auto;
   width: 90%;
   height: 515px;
   object-fit: cover;

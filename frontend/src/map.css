@@ -1,7 +1,7 @@
 .map{
     position: relative;
     margin-top: 120px;
-    margin-left: 182px;
+    margin-left: 220px;
 
 }
 
@@ -9,17 +9,36 @@
 }
 
 .InfoCard-Translations {
+  background-color: #FF9A02;
   font-family: 'Neutral Face', sans-serif;
-  position: fixed;
-  top: 117px; /* Значение для первой карточки */
-  left: 931px; /* Значение для первой карточки */
+  position: absolute;
+  border-radius: 20px;
+  top: 0px; /* Значение для первой карточки */
+  left: 755px; /* Значение для первой карточки */
+  z-index: 100; /* Убедитесь, что карточка будет поверх других элементов */
+}
+.InfoCard-Support {
+  background-color: #451B00;
+  font-family: 'Neutral Face', sans-serif;
+  position: absolute;
+  border-radius: 20px;
+  top: 245px; /* Пример значения, подгоните под вашу макет */
+  left: 755px; /* Пример значения, подгоните под вашу макет */
   z-index: 10; /* Убедитесь, что карточка будет поверх других элементов */
 }
 
-.InfoCard-Support {
-  font-family: 'Neutral Face', sans-serif;
-  position: fixed;
-  top: 350px; /* Пример значения, подгоните под вашу макет */
-  left: 931px; /* Пример значения, подгоните под вашу макет */
-  z-index: 10; /* Убедитесь, что карточка будет поверх других элементов */
+.shelter{
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: black;
+    font-size: 48px;
+}
+
+.cabin{
+  display: flex; /* используем флексбокс для выравнивания карточек */
+  flex-wrap: wrap; /* разрешаем перенос элементов на новую строку */
+  gap: 40px 0px; /* задаем промежуток между карточками */
+  margin-bottom: 20px; /* отступ снизу, если нужен */
 }

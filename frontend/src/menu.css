@@ -2,20 +2,20 @@
 .menu {
   position: absolute;
   top: 20px;
-  left: 203px;
+  left: 172px;
   display: flex;
   align-items: center;
   width: px; /* Изменяем ширину меню */
   height: 33px; /* Изменяем высоту меню */
   border-radius: 30px; /* Увеличиваем радиус скругления */
-  background-color: #FFFFFF;
+  background-color: #e3e3e3;
   padding: 5px; /* Уменьшаем внутренний отступ */
   z-index: 1;
 }
 
 .menu-item {
   padding: 10px 23px; /* Уменьшаем внутренний отступ кнопок */
-  border-radius: 15px;
+  border-radius: 20px;
   text-decoration: none;
   color: #451B00;
    font-weight: bold;

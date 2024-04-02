@@ -1,7 +1,9 @@
 import React from 'react';
 import YmapTag from './YmapTag.jsx';
 import InfoCard from './InfoCard.jsx';
+import Cabin from './Cabin.jsx';
 import '../map.css';
+
 
 const Map = () => {
  const mapStyles = {
@@ -35,6 +37,15 @@ const Map = () => {
                     link="#"
                     onLinkClick={handleLinkClick}
                 />
+            </div>
+            <div className="shelter">
+               ПРИЮТЫ
+            </div>
+            <div className="cabin">
+            <Cabin title="КОШКИН ДОМ" address="г. Самара, ул. Арбузовская 57" buttonText="Поддержать" />
+            <Cabin title="КОШКИН ДОМ" address="г. Самара, ул. Арбузовская 57" buttonText="Поддержать" />
+            <Cabin title="КОШКИН ДОМ" address="г. Самара, ул. Арбузовская 57" buttonText="Поддержать" />
+            <Cabin title="КОШКИН ДОМ" address="г. Самара, ул. Арбузовская 57" buttonText="Поддержать" />
             </div>
         </div>
   );

@@ -12,7 +12,7 @@
   width: 58px;
   height: auto;
   position: relative;
-  left: 500%;
+  left: 100%;
 }
 
 
@@ -68,7 +68,7 @@
   width: 320px;
   height: 148px;
   top: 63%;
-  left: 18%;
+  left: 0%;
   font-family: 'Neutral Face', sans-serif;
   font-size: 48px;
   font-weight: 700;
@@ -88,7 +88,7 @@
   width: 345px;
   height: 79px;
   top: 100%;
-  left: 15%;
+  left: 0%;
   font-family: 'Unigeo64 Trial', sans-serif;
   font-size: 20px;
   font-weight: 600;
@@ -101,6 +101,26 @@
 .map-text {
   margin: 0;
   color: #451B00;
+}
+
+
+.email-container {
+  position: absolute;
+  margin-left: 90%;
+  transform: translate(50%, -50%);
+  padding: 10px;
+}
+
+.email-text {
+  color: #451B00;
+  font-family: Unigeo64 Trial;
+  font-size: 18px;
+  font-weight: 600;
+  margin: 0;
+  background-color: white;
+  padding: 10px;
+  border-radius: 30px;
+ /* clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 50% 80%, 0% 100%);*/
 }
 
 /*

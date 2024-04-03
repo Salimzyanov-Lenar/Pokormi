@@ -14,17 +14,25 @@ const YmapTag = ({ mapStyles }) => {
         console.error('Ошибка при получении данных:', error);
       });
   }, []);
+    const combinedStyles = {
+    ...mapStyles, // Использование переданных стилей
+    // снизу использую стили для рамки
+    borderRadius: '2em',
+    border: 'solid',
+    overflow: 'hidden',
+    transform: 'translate3d(0,0,0)',
+    WebkitMaskImage: 'url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAIAAACQd1PeAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAA5JREFUeNpiYGBgAAgwAAAEAAGbA+oJAAAAAElFTkSuQmCC)'
+  };
 
   return (
     <YMaps>
       <div>
         <Map
-            style={ mapStyles }
+            style={ combinedStyles }
           defaultState={{
             center: [53.20, 50.174],
             zoom: 10,
             }}
-
         >
           {jsonData.map(item => (
             <Placemark

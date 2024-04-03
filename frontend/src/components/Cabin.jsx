@@ -17,6 +17,6 @@ function Cabin({ title, address, buttonText }) {
 }
 
 // Использование компонента
-// <SupportCard title="КОШКИН ДОМ" address="г. Самара, ул. Арбузовская 57" buttonText="Поддержать" />
+// <Cabin title="КОШКИН ДОМ" address="г. Самара, ул. Арбузовская 57" buttonText="Поддержать" />
 
 export default Cabin;

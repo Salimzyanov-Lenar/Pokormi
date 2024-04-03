@@ -7,10 +7,10 @@ import '../map.css';
 
 const Map = () => {
  const mapStyles = {
-    width: '731px', // или другой размер
-    height: '474px', // или другой размер
-    position: 'relative', // можно опустить или изменить на absolute в зависимости от нужд
-    marginTop: '50px', // отступ сверху, если нужно
+    width: '731px',
+    height: '474px',
+    position: 'relative',
+    marginTop: '50px',
   };
   const handleLinkClick = (event) => {
     event.preventDefault();
@@ -42,10 +42,10 @@ const Map = () => {
                ПРИЮТЫ
             </div>
             <div className="cabin">
-            <Cabin title="КОШКИН ДОМ" address="г. Самара, ул. Арбузовская 57" buttonText="Поддержать" />
-            <Cabin title="КОШКИН ДОМ" address="г. Самара, ул. Арбузовская 57" buttonText="Поддержать" />
-            <Cabin title="КОШКИН ДОМ" address="г. Самара, ул. Арбузовская 57" buttonText="Поддержать" />
-            <Cabin title="КОШКИН ДОМ" address="г. Самара, ул. Арбузовская 57" buttonText="Поддержать" />
+            <Cabin title="КОШКИН ДОМ 1" address="г. Самара, ул. Арбузовская 57" buttonText="Поддержать" />
+            <Cabin title="КОШКИН ДОМ 2" address="г. Самара, ул. Арбузовская 57" buttonText="Поддержать" />
+            <Cabin title="КОШКИН ДОМ 3" address="г. Самара, ул. Арбузовская 57" buttonText="Поддержать" />
+            <Cabin title="КОШКИН ДОМ 4" address="г. Самара, ул. Арбузовская 57" buttonText="Поддержать" />
             </div>
         </div>
   );

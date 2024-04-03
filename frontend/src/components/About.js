@@ -1,10 +1,11 @@
 import React from 'react';
 import '../about.css';
+import BackgroundAbout from './BackgroundAbout';
 
 const About = () => {
     return(
     <div className="about">
-        <h1>всем привет я абоут ту дай)</h1>
+        <BackgroundAbout />
     </div>
     )
 }

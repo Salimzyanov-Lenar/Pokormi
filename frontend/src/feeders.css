@@ -1,8 +1,16 @@
+
 .Feeders{
-    margin-top: 142px;
+    margin-top: 50px;
     margin-left: 220px;
     display: flex; /* используем флексбокс для выравнивания карточек */
     flex-wrap: wrap; /* разрешаем перенос элементов на новую строку */
     gap: 40px 40px; /* задаем промежуток между карточками */
     margin-bottom: 20px; /* отступ снизу, если нужен */
+}
+
+.FeedersName{
+    margin-left: 220px;
+    margin-top: 50px;
+    font-size: 48px;
+    font-weight: 700;
 }

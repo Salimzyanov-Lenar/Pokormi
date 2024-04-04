@@ -1,5 +1,10 @@
-.about{
+.About{
     position: relative;
-    margin-top: 112px;
-    margin-left: 0px;
+    margin-top: 50px;
+    margin-left: 220px;
+}
+
+.About_text{
+    font-size: 48px;
+    font-weight: 700;
 }

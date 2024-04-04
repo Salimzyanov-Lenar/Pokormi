@@ -1,7 +1,7 @@
 import React from 'react';
 import Background from './Background'; // Импортируйте Background
-import Menu from './Menu';
 import YmapTag from './YmapTag.jsx';
+import '../home.css';
 
 const Home = () => {
     const mapStyles = {

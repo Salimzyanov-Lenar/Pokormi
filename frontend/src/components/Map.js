@@ -19,6 +19,15 @@ const Map = () => {
 
   return (
         <div className="map">
+            <div className="shelter">
+               ПРИЮТЫ
+            </div>
+            <div className="cabin">
+                <Cabin title="КОШКИН ДОМ 1" address="г. Самара, ул. Арбузовская 57" buttonText="Поддержать" />
+                <Cabin title="КОШКИН ДОМ 2" address="г. Самара, ул. Арбузовская 57" buttonText="Поддержать" />
+                <Cabin title="КОШКИН ДОМ 3" address="г. Самара, ул. Арбузовская 57" buttonText="Поддержать" />
+                <Cabin title="КОШКИН ДОМ 4" address="г. Самара, ул. Арбузовская 57" buttonText="Поддержать" />
+            </div>
             <div className="Ymap">
                 <YmapTag mapStyles={mapStyles} />
             </div>
@@ -37,15 +46,6 @@ const Map = () => {
                     link="#"
                     onLinkClick={handleLinkClick}
                 />
-            </div>
-            <div className="shelter">
-               ПРИЮТЫ
-            </div>
-            <div className="cabin">
-            <Cabin title="КОШКИН ДОМ 1" address="г. Самара, ул. Арбузовская 57" buttonText="Поддержать" />
-            <Cabin title="КОШКИН ДОМ 2" address="г. Самара, ул. Арбузовская 57" buttonText="Поддержать" />
-            <Cabin title="КОШКИН ДОМ 3" address="г. Самара, ул. Арбузовская 57" buttonText="Поддержать" />
-            <Cabin title="КОШКИН ДОМ 4" address="г. Самара, ул. Арбузовская 57" buttonText="Поддержать" />
             </div>
         </div>
   );

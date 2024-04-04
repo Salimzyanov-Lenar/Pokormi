@@ -1,25 +1,25 @@
 /* Menu.css */
 .menu {
   position: absolute;
-  top: 20px;
+  top: 0px;
   left: 172px;
   display: flex;
   align-items: center;
-  width: px; /* Изменяем ширину меню */
-  height: 33px; /* Изменяем высоту меню */
+  width: 470px; /* Изменяем ширину меню */
+  height: 43px; /* Изменяем высоту меню */
   border-radius: 30px; /* Увеличиваем радиус скругления */
-  background-color: #e3e3e3;
+  background-color: white;
   padding: 5px; /* Уменьшаем внутренний отступ */
   z-index: 1;
 }
 
 .menu-item {
-  padding: 10px 23px; /* Уменьшаем внутренний отступ кнопок */
-  border-radius: 20px;
+  padding: 15px 25px; /* Уменьшаем внутренний отступ кнопок */
+  border-radius: 25px;
   text-decoration: none;
-  color: #451B00;
-  font-weight: bold;
-  font-size: 14px;
+  color: #000000;
+  font-weight: 600;
+  font-size: 16px;
   font-family: 'Unigeo64 Trial', sans-serif;
   transition: background-color 0.3s;
   white-space: nowrap; /* Текст в одну строку */

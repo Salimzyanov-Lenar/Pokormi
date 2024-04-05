@@ -2,10 +2,10 @@
 .menu {
   position: absolute;
   top: 0px;
-  left: 172px;
+  left: 140px;
   display: flex;
   align-items: center;
-  width: 470px; /* Изменяем ширину меню */
+  width: 430px; /* Изменяем ширину меню */
   height: 43px; /* Изменяем высоту меню */
   border-radius: 30px; /* Увеличиваем радиус скругления */
   background-color: white;
@@ -14,7 +14,7 @@
 }
 
 .menu-item {
-  padding: 15px 25px; /* Уменьшаем внутренний отступ кнопок */
+  padding: 13px 20px; /* Уменьшаем внутренний отступ кнопок */
   border-radius: 25px;
   text-decoration: none;
   color: #000000;

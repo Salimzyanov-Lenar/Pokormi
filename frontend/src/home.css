@@ -2,3 +2,50 @@
     width: 90%;
     margin-left: 45px;
 }
+.content-layout {
+    margin-left: 10%;
+    display: flex; /* Establish a flex container */
+    justify-content: center; /* Center children on the main-axis */
+    align-items: flex-start; /* Align children to the start of the cross-axis */
+}
+
+
+
+.info-block {
+    width: 340px;
+    flex: '1'; /* Allow the block to grow */
+    /* Add your desired styling here, e.g., background color, padding, etc. */
+    margin-left: 20px; /* Spacing between map and the info block */
+}
+
+.info-block h1 {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 46.94px;
+    margin-left: 20px;
+    margin-top: 15px;
+
+}
+.info-block p {
+    margin-left: 20px;
+    margin-top: 0px;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    color: #000000; /* Replace with the exact color code for the paragraph from the image */
+    line-height: 1.5;
+}
+
+.info-block button {
+    height: 48px;
+    width: 208px;
+    margin-left: 20px;
+    background-color: white;
+    border-color: black;/* Replace with the exact button color from the image */
+    color: black;
+    border: 3px solid black;
+    border-radius: 33px;
+    cursor: pointer;
+    font-size: 24px;
+    font-width: 600;
+}

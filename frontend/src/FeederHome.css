@@ -1,0 +1,47 @@
+.FeederHome-container {
+    display: flex; /* Используйте flexbox для выравнивания элементов */
+    align-items: center;
+    margin-top: 25px;
+    margin-left: 5%;
+    width: 350px;
+    height: 120px;
+    background-color: white;
+    border-radius: 30px;
+}
+
+.FeederHome-image-container {
+    margin-right: 20px;
+    width: 140px;
+    height: 100%;
+    background-color: orange;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.FeederHome-title {
+    font-size: 24px;
+    font-weight: 700;
+    font-weight: bold; /* Жирное начертание */
+    color: black; /* Цвет текста */
+    margin-bottom: 5px; /* Отступ от заголовка до адреса */
+}
+
+.FeederHome-address {
+    font-size: 16px;
+    font-weight: 600;
+    color: black; /* Цвет текста */
+    margin-bottom: 10px; /* Отступ от адреса до кнопки */
+}
+
+.FeederHome-transition-button {
+    width: 60%;
+    height: 30px;
+    background-color: #FFA500; /* Цвет фона кнопки */
+    color: black; /* Цвет текста на кнопке */
+    border: none; /* Убрать рамку */
+    padding: 0px; /* Паддинги внутри кнопки */
+    border-radius: 20px; /* Закругление углов кнопки */
+    cursor: pointer; /* Курсор в виде указателя */
+    font-weight: 600; /* Жирное начертание */
+    font-size: 20px;
+}

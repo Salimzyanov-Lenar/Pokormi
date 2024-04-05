@@ -19,7 +19,7 @@
 
 .overlay {
   position: absolute;
-  top: 44%;
+  top: 65%;
   left: 75%;
   transform: translate(-50%, -50%);
   text-align: center;
@@ -67,20 +67,20 @@
   position: absolute;
   width: 320px;
   height: 148px;
-  top: 63%;
+  top: 73%;
   left: 0%;
   font-family: 'Neutral Face', sans-serif;
   font-size: 48px;
   font-weight: 700;
   line-height: 46.94px;
   text-align: left;
-  padding: 20px;
+  padding: 0px;
   border-radius: 30px;
 }
 
 .text-line {
   margin: 0;
-  color: white;
+  color: black;
 }
 
 .map-info {

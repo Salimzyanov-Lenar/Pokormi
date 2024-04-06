@@ -6,20 +6,20 @@ import Feed from './Feed.jsx';
 
 
 const Feeders = () => {
-  return (
-  <div className="FeedersPage">
-    <div className="FeedersName">
-        КОРМУШКИ
+    return (
+    <div className="FeedersPage">
+        <div className="FeedersName">
+            КОРМУШКИ
+        </div>
+        <div className="Feeders">
+            <Feed title="КОШКИ" address="Парк им. Ю. Гагарина"/>
+            <Feed title="ОЧЕНЬ" address="Парк им. Ю. Гагарина"/>
+            <Feed title="РАДЫ" address="Парк им. Ю. Гагарина"/>
+            <Feed title="ВАШЕЙ" address="Парк им. Ю. Гагарина"/>
+            <Feed title="ПОМОЩИ" address="Парк им. Ю. Гагарина"/>
+            <Feed title="СПАСИБО" address="Парк им. Ю. Гагарина"/>
+        </div>
     </div>
-    <div className="Feeders">
-        <Feed title="КОШКИ" address="Парк им. Ю. Гагарина"/>
-        <Feed title="ОЧЕНЬ" address="Парк им. Ю. Гагарина"/>
-        <Feed title="РАДЫ" address="Парк им. Ю. Гагарина"/>
-        <Feed title="ВАШЕЙ" address="Парк им. Ю. Гагарина"/>
-        <Feed title="ПОМОЩИ" address="Парк им. Ю. Гагарина"/>
-        <Feed title="СПАСИБО" address="Парк им. Ю. Гагарина"/>
-    </div>
-  </div>
   );
 };
 // <Feed title="КОШКИН ДОМ" address="г. Самара, ул. Арбузовская 57"/>

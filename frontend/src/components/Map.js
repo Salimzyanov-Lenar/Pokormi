@@ -6,21 +6,20 @@ import '../map.css';
 
 
 const Map = () => {
- const mapStyles = {
-    width: '731px',
-    height: '474px',
-    position: 'relative',
-    marginTop: '50px',
-  };
-  const handleLinkClick = (event) => {
-    event.preventDefault();
-    console.log("Ссылка была нажата");
-  };
-
-  return (
+    const mapStyles = {
+        width: '731px',
+        height: '474px',
+        position: 'relative',
+        marginTop: '50px',
+    };
+    const handleLinkClick = (event) => {
+        event.preventDefault();
+        console.log("Ссылка была нажата");
+    };
+    return (
         <div className="map">
             <div className="shelter">
-               ПРИЮТЫ
+                ПРИЮТЫ
             </div>
             <div className="cabin">
                 <Cabin title="КОШКИН ДОМ 1" address="г. Самара, ул. Арбузовская 57" buttonText="Поддержать" />

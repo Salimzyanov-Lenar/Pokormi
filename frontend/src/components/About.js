@@ -3,13 +3,13 @@ import '../about.css';
 
 const About = () => {
     return(
-    <div class="About">
-        <div class="About_text">
-            О ПРОЕКТЕ
+        <div class="About">
+            <div class="About_text">
+                О ПРОЕКТЕ
+            </div>
         </div>
-    </div>
-    )
-}
+    );
+};
 
 
-export default About
+export default About;

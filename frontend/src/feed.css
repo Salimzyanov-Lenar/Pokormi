@@ -1,26 +1,39 @@
 .feed-container {
+    position: relative;
     width: 330px;
     height: 400px;
     border-radius: 30px;
-    display: flex;
-    background-color: orange;
     font-family: Arial, sans-serif;
+    overflow: hidden;
+    display: flex;
 }
 
-.feed-image-container{
+.feed-image-container {
+    width: 100%;
+    height: 100%;
+    overflow: hidden; /* Скрываем изображения, выходящие за пределы */
+}
 
+.feed-image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Обрезаем изображение, сохраняя пропорции */
+    border-radius: 30px 30px 0 0; /* Скругляем только верхние углы */
 }
 
 .feed-content {
-        width: 330px;
+    position: absolute;
+    width: 330px;
     height: 400px;
     padding: 10px;
     display: flex;
     flex-direction: column;
+    background: rgba(0, 0, 0, 0.1);
 }
 
 .feed-title {
-    weight: 315px;
+    color: white;
+    weight: 700;
     margin-left: 15px;
     margin-right: 15px;
     font-size: 36px; /* Adjust as needed */
@@ -30,6 +43,7 @@
 }
 
 .feed-address {
+    color: white;
     margin-top: 10px;
     margin-left: 40px;
     font-size: 16px;
@@ -42,12 +56,12 @@
   width: 120px;
   margin-top: 260px;
   margin-left: 190px;
-  background-color: white; /* Adjust the color to match the image */
+  background-color: #FF9A02; /* Adjust the color to match the image */
   border: none;
   border-radius: 20px;
   cursor: pointer;
   font-size: 20px; /* Adjust as needed */
-  weight: 600;
+  font-weight: 600;
   font-weight: bold;
   text-transform: uppercase;
   align-self: start;

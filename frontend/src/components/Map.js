@@ -22,10 +22,10 @@ const Map = () => {
                 ПРИЮТЫ
             </div>
             <div className="cabin">
-                <Cabin title="КОШКИН ДОМ 1" address="г. Самара, ул. Арбузовская 57" buttonText="Поддержать" />
-                <Cabin title="КОШКИН ДОМ 2" address="г. Самара, ул. Арбузовская 57" buttonText="Поддержать" />
-                <Cabin title="КОШКИН ДОМ 3" address="г. Самара, ул. Арбузовская 57" buttonText="Поддержать" />
-                <Cabin title="КОШКИН ДОМ 4" address="г. Самара, ул. Арбузовская 57" buttonText="Поддержать" />
+                <Cabin title="КОШКИН ДОМ 1" address="г. Самара, ул. Арбузовская 57" imageSrc="/image/pictest.png"/>
+                <Cabin title="КОШКИН ДОМ 2" address="г. Самара, ул. Арбузовская 57" imageSrc="/image/pictest.png"/>
+                <Cabin title="КОШКИН ДОМ 3" address="г. Самара, ул. Арбузовская 57" imageSrc="/image/pictest.png"/>
+                <Cabin title="КОШКИН ДОМ 4" address="г. Самара, ул. Арбузовская 57" imageSrc="/image/pictest.png"/>
             </div>
             <div className="Ymap">
                 <YmapTag mapStyles={mapStyles} />

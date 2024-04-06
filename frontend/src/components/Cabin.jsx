@@ -1,16 +1,16 @@
 import React from 'react';
 import '../cabin.css';
 
-function Cabin({ title, address, buttonText }) {
+function Cabin({ title, address, imageSrc }) {
     return (
     <div className="card-container">
-        <div className="card-image-container">
-            {/* Image or icon can be placed here */}
+        <div className="Cabin-image-container">
+            {imageSrc && <img src={imageSrc} alt="Cabin" />}
         </div>
         <div className="card-content">
             <div className="card-title">{title}</div>
             <div className="card-address">{address}</div>
-            <button className="support-button">{buttonText}</button>
+            <button className="support-button">Перейти</button>
         </div>
     </div>
   );

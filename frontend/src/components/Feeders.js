@@ -12,12 +12,12 @@ const Feeders = () => {
             КОРМУШКИ
         </div>
         <div className="Feeders">
-            <Feed title="КОШКИ" address="Парк им. Ю. Гагарина"/>
-            <Feed title="ОЧЕНЬ" address="Парк им. Ю. Гагарина"/>
-            <Feed title="РАДЫ" address="Парк им. Ю. Гагарина"/>
-            <Feed title="ВАШЕЙ" address="Парк им. Ю. Гагарина"/>
-            <Feed title="ПОМОЩИ" address="Парк им. Ю. Гагарина"/>
-            <Feed title="СПАСИБО" address="Парк им. Ю. Гагарина"/>
+            <Feed title="КОШКИ" address="Парк им. Ю. Гагарина" imageSrc="/image/pictest.png"/>
+            <Feed title="ОЧЕНЬ" address="Парк им. Ю. Гагарина" imageSrc="/image/pictest.png"/>
+            <Feed title="РАДЫ" address="Парк им. Ю. Гагарина" imageSrc="/image/pictest.png"/>
+            <Feed title="ВАШЕЙ" address="Парк им. Ю. Гагарина" imageSrc="/image/pictest.png"/>
+            <Feed title="ПОМОЩИ" address="Парк им. Ю. Гагарина" imageSrc="/image/pictest.png"/>
+            <Feed title="СПАСИБО" address="Парк им. Ю. Гагарина" imageSrc="/image/pictest.png"/>
         </div>
     </div>
   );

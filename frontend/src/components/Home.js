@@ -4,6 +4,7 @@ import YmapTag from './YmapTag.jsx';
 import FeederHome from './FeederHome.jsx';
 import '../home.css';
 
+
 const Home = () => {
     const mapStyles = {
         width: '350px',
@@ -23,9 +24,9 @@ const Home = () => {
                     <button>Подробнее</button>
                 </div>
                 <div className='mini-feeders'>
-                    <FeederHome title="КОШКИН ДОМ" address="г. Самара, ул. Арбузовская 57"/>
-                    <FeederHome title="КОШКИН ДОМ" address="г. Самара, ул. Арбузовская 57"/>
-                    <FeederHome title="КОШКИН ДОМ" address="г. Самара, ул. Арбузовская 57"/>
+                    <FeederHome title="КОШКИН ДОМ" address="г. Самара, ул. Арбузовская 57" imageSrc="/image/pictest.png"/>
+                    <FeederHome title="КОШКИН ДОМ" address="г. Самара, ул. Арбузовская 57" imageSrc="/image/pictest.png"/>
+                    <FeederHome title="КОШКИН ДОМ" address="г. Самара, ул. Арбузовская 57" imageSrc="/image/pictest.png"/>
                 </div>
             </div>
         </div>

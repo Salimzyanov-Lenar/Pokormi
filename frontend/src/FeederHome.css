@@ -13,9 +13,15 @@
     margin-right: 20px;
     width: 140px;
     height: 100%;
-    background-color: orange;
     object-fit: cover;
     border-radius: 20px;
+}
+.FeederHome-image-container img {
+    width: 100%;    /* Заполняет ширину контейнера */
+    height: 100%;   /* Заполняет высоту контейнера */
+    object-fit: cover; /* Обрезает и сохраняет аспект изображения */
+    border-radius: 20px; /* Скругленные углы для изображения */
+    filter: brightness(80%);
 }
 
 .FeederHome-title {

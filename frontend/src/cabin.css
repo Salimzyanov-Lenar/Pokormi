@@ -9,7 +9,7 @@
   font-family: Arial, sans-serif; /* Adjust as needed */
 }
 
-.card-image-container {
+.Cabin-image-container {
   width: 195px;
   height: 195px;
   background-color: #C4C4C4; /* Adjust the color to match the image */
@@ -18,6 +18,14 @@
   justify-content: center;
   align-items: center;
   /* Add a placeholder for an image or background image */
+}
+
+.Cabin-image-container img {
+    width: 100%;    /* Заполняет ширину контейнера */
+    height: 100%;   /* Заполняет высоту контейнера */
+    object-fit: cover; /* Обрезает и сохраняет аспект изображения */
+    border-radius: 20px; /* Скругленные углы для изображения */
+    filter: brightness(80%);
 }
 
 .card-content {

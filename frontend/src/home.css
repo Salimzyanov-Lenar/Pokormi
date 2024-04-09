@@ -1,9 +1,11 @@
 .home{
-    width: 90%;
-    margin-left: 45px;
+
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-left: 90px; /* чтобы выровнить с нижним блоком */
 }
 .content-layout {
-    margin-left: 10%;
+    margin-right: 30px;
     display: flex; /* Establish a flex container */
     justify-content: center; /* Center children on the main-axis */
     align-items: flex-start; /* Align children to the start of the cross-axis */

@@ -1,8 +1,9 @@
 .background {
   position: relative;
-  margin-top: 20px;
-  margin-left: 12%;
   background-size: cover;
+  width: 1200px;
+  margin: 0 auto;
+
 }
 
 .background-image {

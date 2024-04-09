@@ -1,7 +1,10 @@
 .map{
+    height:;
+    width: 1100px;
     position: relative;
     margin-top: 120px;
-    margin-left: 220px;
+    margin: 0 auto;
+
 
 }
 

@@ -17,6 +17,7 @@ const Map = () => {
         console.log("Ссылка была нажата");
     };
     return (
+    <div className="forflexbox">
         <div className="map">
             <div className="shelter">
                 ПРИЮТЫ
@@ -47,6 +48,7 @@ const Map = () => {
                 />
             </div>
         </div>
+    </div>
   );
 };
 

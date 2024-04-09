@@ -1,7 +1,10 @@
-
+.FeedersPage{
+    width: 1100px;
+    margin: 0 auto;
+}
 .Feeders{
-    margin-top: 50px;
-    margin-left: 220px;
+    width: 1100px;
+    margin: 0 auto;
     display: flex; /* используем флексбокс для выравнивания карточек */
     flex-wrap: wrap; /* разрешаем перенос элементов на новую строку */
     gap: 40px 40px; /* задаем промежуток между карточками */
@@ -9,8 +12,8 @@
 }
 
 .FeedersName{
-    margin-left: 220px;
     margin-top: 50px;
+    margin-bottom: 50px;
     font-size: 48px;
     font-weight: 700;
 }

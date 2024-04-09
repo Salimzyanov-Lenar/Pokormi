@@ -3,10 +3,11 @@ import Home from './Home';
 import Map from './Map';
 import Feeders from './Feeders';
 import About from './About';
+import '../All_page.css';
 
 const All_page = () => {
     return (
-        <div>
+        <div className="allpage">
             <div id="home"><Home /></div>
             <div id="map"><Map /></div>
             <div id="feed"><Feeders /></div>

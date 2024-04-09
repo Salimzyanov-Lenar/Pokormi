@@ -1,7 +1,8 @@
 .About{
     position: relative;
     margin-top: 50px;
-    margin-left: 220px;
+    width: 1100px;
+    margin: 0 auto;
 }
 
 .About_text{

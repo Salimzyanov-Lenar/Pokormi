@@ -1,5 +1,5 @@
 /* Menu.css */
-.menu {
+.menu{
   position: absolute;
   top: 0px;
   left: 140px;
@@ -11,6 +11,7 @@
   background-color: white;
   padding: 5px; /* Уменьшаем внутренний отступ */
   z-index: 1;
+
 }
 
 .menu-item {

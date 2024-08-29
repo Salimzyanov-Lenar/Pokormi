@@ -1,5 +1,7 @@
 # Pokormi
 
+Django Rest Framework + ReactJS
+
 1. pip install -r requirements.txt <br>
 2. в папке frontend npm install
 3. запустить python manage.py runserver в директории проекта
